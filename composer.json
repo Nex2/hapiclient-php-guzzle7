@@ -26,5 +26,8 @@
         "psr-4": {
             "HapiClient\\Tests\\": "tests/"
         }
+    },
+    "conflict": {
+        "guzzlehttp/psr7": "<2.0"
     }
 }
