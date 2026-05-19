@@ -241,7 +241,7 @@ final class HapiClient implements HapiClientInterface
             $request->getMethod(),
             $url,
             array_merge($headers, $headersToAdd),
-            $body ? \GuzzleHttp\Psr7\stream_for($body) : null
+            $body ? \GuzzleHttp\Psr7\Utils::streamFor($body) : null
         );
 
         return $httpRequest;
