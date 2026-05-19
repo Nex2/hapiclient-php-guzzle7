@@ -14,7 +14,7 @@ Using [Composer](https://getcomposer.org/):
 ```json
 {
     "require": {
-        "nex2/hapiclient-php-guzzle7": "^1.0.1"
+        "slimpay/hapiclient-guzzle7": "^1.0.1"
     }
 }
 ```
